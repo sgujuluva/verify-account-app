@@ -9,6 +9,7 @@ inputs[0].focus();
       if(index < inputs.length -1 ){
           console.log("input", e.key)
         if(e.key === "Backspace"){
+         
             setTimeout(() => inputs[index -1].focus(),100);
         }else{
             setTimeout(() => inputs[index + 1].focus(), 100);
